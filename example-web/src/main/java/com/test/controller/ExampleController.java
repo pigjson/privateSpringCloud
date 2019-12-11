@@ -33,8 +33,9 @@ public class ExampleController {
     @ResponseBody
     public Object testPost(HttpServletRequest request){
 
-        logger.info("我是web，我运行了");
+        logger.info("我是web，我运行了111");
         logger.info("testpara-->"+testpara);
         return fExampleService.queryExample();
     }
+
 }
