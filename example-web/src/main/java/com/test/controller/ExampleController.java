@@ -23,8 +23,8 @@ public class ExampleController {
 
     private final static Logger logger = LoggerFactory.getLogger(ExampleController.class);
 
-    @Value("${testpara}")
-    private  String testpara;
+//    @Value("${testpara}")
+    private  String testpara="111";
 
     @Autowired
     private FExampleService fExampleService;

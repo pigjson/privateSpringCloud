@@ -1,6 +1,7 @@
 package com.test;
 
 
+import com.test.service.MyInterface;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,15 +27,8 @@ public class ExampleWebApplicationTests {
 
     @Test
     public void testLock(){
-//        for (int i = 0; i < 5; i++) {
-//            new Thread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    Boolean lockFlag = distributedRedisLock.lock("LOCK");
-//                }
-//            }).start();
-//        }
-
+        MyInterface myInterface = e-> e+1;
+        myInterface.testStr("123");
     }
 
 

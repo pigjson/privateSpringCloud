@@ -3,6 +3,7 @@ package com.test.controller;
 import com.test.lock.Lock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,6 +21,9 @@ import java.util.Map;
 public class ExampleController {
 
     private final static Logger logger = LoggerFactory.getLogger(ExampleController.class);
+
+    @Autowired
+    RabbitTemplate rabbitTemplate;  //使用RabbitTemplate,这提供了接收/发送等等方法
 
     @Autowired
     private Lock lock;

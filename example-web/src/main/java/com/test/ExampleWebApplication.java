@@ -1,6 +1,7 @@
 package com.test;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
+import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
@@ -14,6 +15,7 @@ import org.springframework.context.annotation.Bean;
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableHystrixDashboard
+@EnableRabbit
 @EnableFeignClients(basePackages = "com.test.api")
 public class ExampleWebApplication {
 
