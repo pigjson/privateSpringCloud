@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java" line="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../example-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../example-service/target/" />
@@ -15,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/../example-hystrix-turbine/target/" />
     <ignored path="$PROJECT_DIR$/../example-config/target/" />
     <ignored path="$PROJECT_DIR$/../example-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/../example-entity/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +35,72 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#20#1" expanded="true" />
+                <element signature="e#0#83#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/BallHero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Ball.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,12 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/lock/RedisTool.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/lock/RedisTool.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/lock/Service1.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/lock/DistributedLock.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/lock/Lock.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/lock/TaskThread.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/config/RedisLockConfiguration.java" />
@@ -81,11 +144,9 @@
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/config/RedissionConfig.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/lock/impl/RedisLockBak.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/lock/impl/RedisLock.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/service/impl/MyInterfaceImpl.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/service/MyInterface.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/service/impl/Test.java" />
-        <option value="$PROJECT_DIR$/../example-service/pom.xml" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/AmqpController.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/TopicManReceiver.java" />
@@ -116,6 +177,15 @@
         <option value="$PROJECT_DIR$/../example-web/pom.xml" />
         <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/annotation/TestPermissionAspect.java" />
         <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/TestPermissionController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java" />
+        <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Hero.java" />
+        <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Ball.java" />
+        <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/BallHero.java" />
+        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java" />
+        <option value="$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -161,36 +231,115 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-web" type="462c0819:PsiDirectoryNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-web" type="462c0819:PsiDirectoryNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-web" type="462c0819:PsiDirectoryNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-web" type="462c0819:PsiDirectoryNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-web" type="462c0819:PsiDirectoryNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -198,7 +347,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -216,6 +364,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.dao" />
       <recent name="com.test.config" />
       <recent name="com.test.rabbitmq" />
       <recent name="com.test.controller" />
@@ -234,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExampleWebApplication">
+  <component name="RunManager" selected="JUnit.ExampleWebApplicationTests.testJpa">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.service.impl.Test" />
       <module name="example-service" />
@@ -248,39 +397,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleWebApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="example-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ExampleWebApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleWebApplicationTests.testJpa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="example-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ExampleWebApplicationTests" />
+      <option name="METHOD_NAME" value="testJpa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleWebApplicationTests.testLock (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="example-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.ExampleWebApplicationTests" />
-      <option name="METHOD_NAME" value="testLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleWebApplicationTests.testLock (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="example-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.ExampleWebApplicationTests" />
-      <option name="METHOD_NAME" value="testLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleWebApplicationTests.testLock (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="example-service" />
       <extension name="coverage">
         <pattern>
@@ -374,8 +522,6 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testStringRedis" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (1)" />
-      <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (3)" />
-      <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (5)" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testReids" />
       <item itemvalue="Spring Boot.ExampleConfigApplication" />
       <item itemvalue="Spring Boot.ExampleEurekaApplication" />
@@ -383,14 +529,16 @@
       <item itemvalue="Spring Boot.ExampleServiceApplication" />
       <item itemvalue="Spring Boot.ExampleWebApplication" />
       <item itemvalue="Spring Boot.ExampleZuulApplication" />
+      <item itemvalue="JUnit.ExampleWebApplicationTests.testJpa" />
+      <item itemvalue="JUnit.ExampleWebApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleWebApplicationTests.testJpa" />
+        <item itemvalue="JUnit.ExampleWebApplicationTests" />
         <item itemvalue="JUnit.ExampleWebApplicationTests.testReids" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (1)" />
-        <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (3)" />
-        <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -424,43 +572,44 @@
       <workItem from="1577425808598" duration="12481000" />
       <workItem from="1577665532379" duration="1076000" />
       <workItem from="1577754813655" duration="8852000" />
+      <workItem from="1578033145876" duration="5997000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleWebApplicationTests_testLock_(1) - 2019.12.17 at 17h 42m 18s.xml">
-      <configuration name="ExampleWebApplicationTests.testLock (1)" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests - 2020.01.03 at 15h 42m 33s.xml">
+      <configuration name="ExampleWebApplicationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testLock_(1) - 2019.12.17 at 17h 42m 29s.xml">
-      <configuration name="ExampleWebApplicationTests.testLock (1)" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 15h 42m 48s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testLock_(1) - 2019.12.23 at 09h 01m 04s.xml">
-      <configuration name="ExampleWebApplicationTests.testLock (1)" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 15h 44m 06s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testLock_(1) - 2019.12.23 at 09h 02m 39s.xml">
-      <configuration name="ExampleWebApplicationTests.testLock (1)" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 15h 45m 50s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 24m 28s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 15h 47m 55s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 25m 51s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 15h 49m 53s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 27m 16s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 16h 03m 28s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 27m 43s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 16h 04m 52s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 28m 26s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 16h 05m 34s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleWebApplicationTests_testReids - 2019.12.24 at 16h 29m 14s.xml">
-      <configuration name="ExampleWebApplicationTests.testReids" configurationId="JUnit" />
+    <history-entry file="ExampleWebApplicationTests_testJpa - 2020.01.03 at 16h 06m 42s.xml">
+      <configuration name="ExampleWebApplicationTests.testJpa" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93884000" />
+    <option name="totallyTimeSpent" value="100082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,8 +622,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="7" width="1583" height="857" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30991465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31385425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,89 +664,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/service/impl/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/jdk/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="183" column="61" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/AmqpController.java" />
-    <entry file="file://$PROJECT_DIR$/../example-config/src/main/java/com/test/ExampleConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-config/src/main/resources/dev/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-eureka/src/main/resources/dev/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-eureka/src/main/resources/test/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-eureka/src/main/resources/prod/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/src/main/resources/config/redis.setting">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="760" selection-start-line="760" selection-end-line="760" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/src/main/resources/prod/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/src/main/resources/test/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/config/MessageListenerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/MessageListenerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-web/src/test/java/com/test/ExampleWebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -615,13 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="477" column="16" selection-start-line="477" selection-start-column="16" selection-end-line="477" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -739,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -855,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.0.5/hutool-all-5.0.5.jar!/cn/hutool/json/JSONUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -890,6 +936,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-extra/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-extra/src/main/java/com/test/util/RestTemplateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-extra/src/main/java/com/test/controller/ActuatorcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/service/MyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/service/impl/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.9.RELEASE/spring-data-jpa-2.0.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/BallHero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+            <element signature="e#0#83#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
