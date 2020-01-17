@@ -1,8 +1,6 @@
 package com.test.controller;
 
 
-
-
 import com.test.api.first.FExampleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,18 +21,18 @@ public class ExampleController {
 
     private final static Logger logger = LoggerFactory.getLogger(ExampleController.class);
 
-//    @Value("${testpara}")
-    private  String testpara="111";
+    //    @Value("${testpara}")
+    private String testpara = "111";
 
     @Autowired
     private FExampleService fExampleService;
 
     @RequestMapping("/testPost")
     @ResponseBody
-    public Object testPost(HttpServletRequest request){
+    public Object testPost(HttpServletRequest request) {
 
         logger.info("我是web，我运行了111");
-        logger.info("testpara-->"+testpara);
+        logger.info("testpara-->" + testpara);
         return fExampleService.queryExample();
     }
 

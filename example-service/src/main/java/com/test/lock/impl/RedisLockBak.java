@@ -20,31 +20,33 @@ public class RedisLockBak implements Lock {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+
     /**
      * 加锁
      */
     @Override
-    public boolean lock(String key,String value){
+    public boolean lock(String key, String value) {
 
 
-        if(stringRedisTemplate.opsForValue().setIfAbsent(key,value)){
+        if (stringRedisTemplate.opsForValue().setIfAbsent(key, value)) {
             return true;
         }
         String currentValue = stringRedisTemplate.opsForValue().get(key);
-        if(!StringUtils.isEmpty(currentValue) && Long.parseLong(currentValue)<System.currentTimeMillis()){
-            String oldvalue  = stringRedisTemplate.opsForValue().getAndSet(key,value);
-            if(!StringUtils.isEmpty(oldvalue)&&oldvalue.equals(currentValue)){
+        if (!StringUtils.isEmpty(currentValue) && Long.parseLong(currentValue) < System.currentTimeMillis()) {
+            String oldvalue = stringRedisTemplate.opsForValue().getAndSet(key, value);
+            if (!StringUtils.isEmpty(oldvalue) && oldvalue.equals(currentValue)) {
                 return true;
             }
         }
 
         return false;
     }
+
     /**
      * 解锁
      */
     @Override
-    public void unlock(String key){
+    public void unlock(String key) {
         stringRedisTemplate.opsForValue().getOperations().delete(key);
     }
 
@@ -53,10 +55,10 @@ public class RedisLockBak implements Lock {
      * 解锁
      */
     @Override
-    public void unlock(String key,String value){
+    public void unlock(String key, String value) {
         try {
             String currentValue = stringRedisTemplate.opsForValue().get(key);
-            if(!StringUtils.isEmpty(currentValue)&&currentValue.equals(value)){
+            if (!StringUtils.isEmpty(currentValue) && currentValue.equals(value)) {
                 stringRedisTemplate.opsForValue().getOperations().delete(key);
             }
         } catch (Exception e) {
@@ -73,7 +75,7 @@ public class RedisLockBak implements Lock {
     public void spinLock(String key, String value) {
         while (true) {
             if (lock(key, value)) {
-                System.out.println("lock  "+ Thread.currentThread().getName()+ " value:" + value);
+                System.out.println("lock  " + Thread.currentThread().getName() + " value:" + value);
                 return;
             }
         }

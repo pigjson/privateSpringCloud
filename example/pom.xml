@@ -25,6 +25,7 @@
         <example-entity.version>1.0-SNAPSHOT</example-entity.version>
         <hutool.version>5.0.5</hutool.version>
         <jedis.version>2.9.0</jedis.version>
+        <fastjson.version>1.2.23</fastjson.version>
     </properties>
     <modules>
         <module>../example-eureka</module>
@@ -35,6 +36,7 @@
         <module>../example-hystrix-turbine</module>
         <module>../example-config</module>
         <module>../example-zuul</module>
+        <module>../example-activity</module>
     </modules>
     <dependencyManagement>
         <dependencies>

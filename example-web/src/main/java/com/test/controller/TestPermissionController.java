@@ -18,19 +18,21 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/testPermissionController")
 public class TestPermissionController {
     private final static Logger logger = LoggerFactory.getLogger(ExampleController.class);
-    @TestPermission(name = "测试1", role ="测试2" )
+
+    @TestPermission(name = "测试1", role = "测试2")
     @RequestMapping("/testPost")
     @ResponseBody
-    public Object testPost(@RequestBody String para){
+    public Object testPost(@RequestBody String para) {
 
-        logger.info("testpara-->"+para);
+        logger.info("testpara-->" + para);
         return "ok";
     }
+
     @RequestMapping("/testPost1")
     @ResponseBody
-    public Object testPost1(@RequestBody String para){
+    public Object testPost1(@RequestBody String para) {
 
-        logger.info("testpara-->"+para);
+        logger.info("testpara-->" + para);
         return "ok";
     }
 }

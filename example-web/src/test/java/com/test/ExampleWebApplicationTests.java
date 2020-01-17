@@ -20,14 +20,15 @@ public class ExampleWebApplicationTests {
 
 
     @Test
-    public void testReids(){
+    public void testReids() {
         redisTemplate.opsForValue().set("test", "1122334455");
-        redisTemplate.expire("test",100, TimeUnit.SECONDS);
+        redisTemplate.expire("test", 100, TimeUnit.SECONDS);
     }
+
     @Test
-    public void redis(){
+    public void redis() {
         Jedis jedis = RedisDS.create().getJedis();
-        jedis.set("hi","pizzzz");
+        jedis.set("hi", "pizzzz");
         System.out.println(jedis.get("hi"));
     }
 

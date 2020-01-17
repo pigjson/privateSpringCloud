@@ -1,7 +1,6 @@
 package com.test.annotation;
 
 
-
 import java.lang.annotation.*;
 
 /**
@@ -17,6 +16,7 @@ import java.lang.annotation.*;
 public @interface TestPermission {
     //多个 参数
     String name();
+
     String role();
     //只有一个参数
     //    String value();

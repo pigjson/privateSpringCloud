@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(name = "example-service", path = "", fallback = FExampleServiceImpl.class)
 public interface FExampleService {
-        /**
-         * 参数可以传bean
-         * @return
-         */
-        @RequestMapping(value = "/exampleController/testPost", method = RequestMethod.POST)
-        Object queryExample();
+    /**
+     * 参数可以传bean
+     *
+     * @return
+     */
+    @RequestMapping(value = "/exampleController/testPost", method = RequestMethod.POST)
+    Object queryExample();
 }

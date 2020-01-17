@@ -18,11 +18,11 @@ import java.util.Map;
  **/
 @Component
 @RabbitListener(queues = "fanout.A")
-public class FanoutReceiverA  implements ChannelAwareMessageListener {
+public class FanoutReceiverA implements ChannelAwareMessageListener {
 
     @RabbitHandler
     public void process(Map testMessage) {
-        System.out.println("FanoutReceiverA消费者收到消息  : " +testMessage.toString());
+        System.out.println("FanoutReceiverA消费者收到消息  : " + testMessage.toString());
     }
 
     @Override
@@ -36,10 +36,10 @@ public class FanoutReceiverA  implements ChannelAwareMessageListener {
             //可以点进Message里面看源码,单引号直接的数据就是我们的map消息数据
             System.out.println(msgArray[1]);
             Map<String, String> msgMap = mapStringToMap(msgArray[1].trim());
-            String messageId=msgMap.get("messageId");
-            String messageData=msgMap.get("messageData");
-            String createTime=msgMap.get("createTime");
-            System.out.println("messageId:"+messageId+"  messageData:"+messageData+"  createTime:"+createTime);
+            String messageId = msgMap.get("messageId");
+            String messageData = msgMap.get("messageData");
+            String createTime = msgMap.get("createTime");
+            System.out.println("messageId:" + messageId + "  messageData:" + messageData + "  createTime:" + createTime);
             channel.basicAck(deliveryTag, true);
 //			channel.basicReject(deliveryTag, true);//为true会重新放回队列
         } catch (Exception e) {

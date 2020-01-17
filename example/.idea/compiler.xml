@@ -6,20 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example-zuul" />
         <module name="example-config" />
         <module name="example-eureka" />
+        <module name="example-extra" />
         <module name="example-service" />
+        <module name="example-activity" />
         <module name="example-web" />
         <module name="example-api" />
-        <module name="example-extra" />
+        <module name="example-zuul" />
         <module name="example-entity" />
         <module name="example-hystrix-turbine" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-activity1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="example-activity" options="-parameters" />
       <module name="example-api" options="-parameters" />
       <module name="example-config" options="-parameters" />
       <module name="example-entity" options="-parameters" />

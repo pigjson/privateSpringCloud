@@ -28,14 +28,15 @@ public class AmqpController {
         String messageId = String.valueOf(UUID.randomUUID());
         String messageData = "test message: hello!";
         String createTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-        Map<String,Object> map=new HashMap<>();
-        map.put("messageId",messageId);
-        map.put("messageData",messageData);
-        map.put("createTime",createTime);
+        Map<String, Object> map = new HashMap<>();
+        map.put("messageId", messageId);
+        map.put("messageData", messageData);
+        map.put("createTime", createTime);
         //将消息携带绑定键值：TestDirectRouting 发送到交换机TestDirectExchange
         rabbitTemplate.convertAndSend("TestDirectExchange", "TestDirectRouting", map);
         return "ok";
     }
+
     @GetMapping("/sendTopicMessage1")
     public String sendTopicMessage1() {
         String messageId = String.valueOf(UUID.randomUUID());
@@ -48,6 +49,7 @@ public class AmqpController {
         rabbitTemplate.convertAndSend("topicExchange", "topic.man", manMap);
         return "ok";
     }
+
     @GetMapping("/sendTopicMessage2")
     public String sendTopicMessage2() {
         String messageId = String.valueOf(UUID.randomUUID());
@@ -60,6 +62,7 @@ public class AmqpController {
         rabbitTemplate.convertAndSend("topicExchange", "topic.woman", womanMap);
         return "ok";
     }
+
     @GetMapping("/sendTopicMessage3")
     public String sendTopicMessage3() {
         String messageId = String.valueOf(UUID.randomUUID());

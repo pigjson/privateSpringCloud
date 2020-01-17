@@ -34,6 +34,7 @@ public class TopicRabbitConfig {
     public Queue ThirdQueue() {
         return new Queue(TopicRabbitConfig.other);
     }
+
     @Bean
     TopicExchange exchange() {
         return new TopicExchange("topicExchange");

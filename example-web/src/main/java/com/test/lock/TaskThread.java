@@ -29,29 +29,28 @@ public class TaskThread {
     }
 
 
-
-   class MyThread1 extends Thread {
-       @Override
-       public void run() {
-           try {
-               String requestId = UUID.randomUUID().toString();
-               System.out.println("进入线程1："+requestId);
-               lock.lock(pool, "resource", requestId, 3000);
-               Thread.sleep(2000);
-               lock.unLock(pool, "resource", requestId);
-               System.out.println("线程1解锁成功");
-           } catch (Exception e) {
-               e.printStackTrace();
-           }
-       }
-   }
+    class MyThread1 extends Thread {
+        @Override
+        public void run() {
+            try {
+                String requestId = UUID.randomUUID().toString();
+                System.out.println("进入线程1：" + requestId);
+                lock.lock(pool, "resource", requestId, 3000);
+                Thread.sleep(2000);
+                lock.unLock(pool, "resource", requestId);
+                System.out.println("线程1解锁成功");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
     class MyThread2 extends Thread {
         @Override
         public void run() {
             try {
                 String requestId = UUID.randomUUID().toString();
-                System.out.println("进入线程3："+requestId);
+                System.out.println("进入线程3：" + requestId);
                 lock.lock(pool, "resource", requestId, 3000);
                 lock.unLock(pool, "resource", requestId);
                 System.out.println("线程2解锁成功");
@@ -68,13 +67,13 @@ public class TaskThread {
             try {
 
                 String requestId = UUID.randomUUID().toString();
-                System.out.println("进入线程3："+requestId);
-                if(lock.tryLock(pool, "resource", requestId, 3000)){
+                System.out.println("进入线程3：" + requestId);
+                if (lock.tryLock(pool, "resource", requestId, 3000)) {
                     System.out.println("线程3获得了锁进行业务处理");
                     Thread.sleep(2000);
                     lock.unLock(pool, "resource", requestId);
                     System.out.println("线程3解锁成功");
-                }else{
+                } else {
                     System.out.println("线程3没有获得到锁，其他线程正在执行");
                 }
 
@@ -90,13 +89,13 @@ public class TaskThread {
             try {
 
                 String requestId = UUID.randomUUID().toString();
-                System.out.println("进入线程4："+requestId);
-                if(lock.tryLock(pool, "resource", requestId, 3000)){
+                System.out.println("进入线程4：" + requestId);
+                if (lock.tryLock(pool, "resource", requestId, 3000)) {
                     System.out.println("线程4获得了锁进行业务处理");
                     Thread.sleep(2000);
                     lock.unLock(pool, "resource", requestId);
                     System.out.println("线程4解锁成功");
-                }else{
+                } else {
                     System.out.println("线程4没有获得到锁，其他线程正在执行");
                 }
             } catch (Exception e) {

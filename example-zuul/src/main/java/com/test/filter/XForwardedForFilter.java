@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class XForwardedForFilter extends ZuulFilter {
     private static final String HTTP_X_FORWARDED_FOR = "HTTP_X_FORWARDED_FOR";
+
     @Override
     public String filterType() {
         return "pre";

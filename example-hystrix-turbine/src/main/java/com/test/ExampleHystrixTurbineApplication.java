@@ -18,6 +18,7 @@ public class ExampleHystrixTurbineApplication {
     public static void main(String[] args) {
         SpringApplication.run(ExampleHystrixTurbineApplication.class, args);
     }
+
     @Bean
     public ServletRegistrationBean getServlet() {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();

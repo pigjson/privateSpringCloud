@@ -12,7 +12,6 @@ public class DistributedLock {
     private static final Long RELEASE_SUCCESS = 1L;
 
 
-
     private static void validParam(JedisPool jedisPool, String lockKey, String requestId, int expireTime) {
         if (null == jedisPool) {
             throw new IllegalArgumentException("jedisPool obj is null");
@@ -32,7 +31,6 @@ public class DistributedLock {
     }
 
     /**
-     *
      * @param lockKey
      * @param requestId
      * @param expireTime
@@ -63,7 +61,6 @@ public class DistributedLock {
     }
 
     /**
-     *
      * @param lockKey
      * @param requestId
      * @param expireTime
@@ -73,14 +70,13 @@ public class DistributedLock {
         validParam(jedisPool, lockKey, requestId, expireTime);
         while (true) {
             if (tryLock(jedisPool, lockKey, requestId, expireTime)) {
-                System.out.println("lock  "+ Thread.currentThread().getName()+ " requestId:" + requestId);
+                System.out.println("lock  " + Thread.currentThread().getName() + " requestId:" + requestId);
                 return;
             }
         }
     }
 
     /**
-     *
      * @param lockKey
      * @param requestId
      * @return
@@ -99,7 +95,7 @@ public class DistributedLock {
                     Collections.singletonList(requestId));
 
             if (RELEASE_SUCCESS.equals(result)) {
-                System.out.println("unlock  "+ Thread.currentThread().getName()+ " requestId:" + requestId);
+                System.out.println("unlock  " + Thread.currentThread().getName() + " requestId:" + requestId);
                 return true;
             }
 

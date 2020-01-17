@@ -30,10 +30,10 @@ public class ExampleController {
 
     @RequestMapping("/testPost")
     @ResponseBody
-    public Object testPost(){
+    public Object testPost() {
         logger.info("我是service，我运行了");
-        Map<String,Object> map = new HashMap<String,Object>(1);
-        map.put("json","mysjson");
+        Map<String, Object> map = new HashMap<String, Object>(1);
+        map.put("json", "mysjson");
         return map;
     }
 
@@ -41,29 +41,29 @@ public class ExampleController {
     @RequestMapping("/testLock1")
     @ResponseBody
     public Object testLock1(@RequestBody String type) throws InterruptedException {
-        logger.info("testLock1----->自旋锁:"+type);
-        lock.spinLock("resource",System.currentTimeMillis()+10000+"");
-        logger.info("testLock1----->自旋锁:"+type+"请求在工作");
-        if("111".equals(type)){
+        logger.info("testLock1----->自旋锁:" + type);
+        lock.spinLock("resource", System.currentTimeMillis() + 10000 + "");
+        logger.info("testLock1----->自旋锁:" + type + "请求在工作");
+        if ("111".equals(type)) {
             Thread.sleep(3000);
         }
         lock.unlock("resource");
-        logger.info("testLock1----->自旋锁解锁:"+type);
+        logger.info("testLock1----->自旋锁解锁:" + type);
         return true;
     }
 
     @RequestMapping("/testLock2")
     @ResponseBody
     public Object testLock2(@RequestBody String type) throws InterruptedException {
-        logger.info("testLock2----->普通锁:"+type);
-        if(lock.lock("resource",System.currentTimeMillis()+10000+"")){
-            logger.info("testLock2----->目前无锁:"+type);
+        logger.info("testLock2----->普通锁:" + type);
+        if (lock.lock("resource", System.currentTimeMillis() + 10000 + "")) {
+            logger.info("testLock2----->目前无锁:" + type);
             Thread.sleep(3000);
-            logger.info("testLock2----->自旋锁:"+type+"请求在工作");
+            logger.info("testLock2----->自旋锁:" + type + "请求在工作");
             lock.unlock("resource");
-            logger.info("testLock2----->普通锁解锁:"+type);
-        }else{
-            logger.info("testLock2----->锁在被占用:"+type);
+            logger.info("testLock2----->普通锁解锁:" + type);
+        } else {
+            logger.info("testLock2----->锁在被占用:" + type);
         }
         return true;
     }

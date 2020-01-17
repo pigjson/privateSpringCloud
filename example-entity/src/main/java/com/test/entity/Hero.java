@@ -11,7 +11,7 @@ import javax.persistence.*;
  * @Date 2020/1/3
  **/
 @Entity
-@Table(name="hero")
+@Table(name = "hero")
 @Data
 public class Hero {
     @Id

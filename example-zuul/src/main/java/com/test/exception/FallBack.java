@@ -24,21 +24,26 @@ public class FallBack implements FallbackProvider {
             public HttpStatus getStatusCode() throws IOException {
                 return null;
             }
+
             @Override
             public int getRawStatusCode() throws IOException {
                 return 0;
             }
+
             @Override
             public String getStatusText() throws IOException {
                 return cause.getMessage();
             }
+
             @Override
             public void close() {
             }
+
             @Override
             public InputStream getBody() throws IOException {
                 return null;
             }
+
             @Override
             public HttpHeaders getHeaders() {
                 return null;

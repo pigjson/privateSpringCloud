@@ -28,6 +28,7 @@ public class MessageListenerConfig {
     private DirectRabbitConfig directRabbitConfig;
     @Autowired
     private FanoutRabbitConfig fanoutRabbitConfig;
+
     @Bean
     public SimpleMessageListenerContainer simpleMessageListenerContainer() {
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer(connectionFactory);

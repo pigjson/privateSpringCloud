@@ -11,7 +11,7 @@ import javax.persistence.*;
  * @Date 2020/1/3
  **/
 @Entity
-@Table(name="ball")
+@Table(name = "ball")
 @Data
 public class Ball {
     @Id

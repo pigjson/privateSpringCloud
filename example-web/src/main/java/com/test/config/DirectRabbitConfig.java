@@ -19,7 +19,7 @@ public class DirectRabbitConfig {
     //队列 起名：TestDirectQueue
     @Bean
     public Queue testDirectQueue() {
-        return new Queue("TestDirectQueue",true);  //true 是否持久
+        return new Queue("TestDirectQueue", true);  //true 是否持久
     }
 
     //Direct交换机 起名：TestDirectExchange
@@ -38,7 +38,6 @@ public class DirectRabbitConfig {
     Binding bindingDirect() {
         return BindingBuilder.bind(testDirectQueue()).to(testDirectExchange()).with("TestDirectRouting");
     }
-
 
 
 }

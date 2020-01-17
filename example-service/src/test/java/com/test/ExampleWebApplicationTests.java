@@ -30,20 +30,20 @@ public class ExampleWebApplicationTests {
     private MyBallRepository myBallRepository;
 
     @Test
-    public void testReids(){
+    public void testReids() {
         redisTemplate.opsForValue().set("test", "1122334455");
-        redisTemplate.expire("test",100, TimeUnit.SECONDS);
+        redisTemplate.expire("test", 100, TimeUnit.SECONDS);
     }
 
 
     @Test
-    public void testLock(){
-        MyInterface myInterface = e-> e+1;
+    public void testLock() {
+        MyInterface myInterface = e -> e + 1;
         myInterface.testStr("123");
     }
 
     @Test
-    public void testJpa(){
+    public void testJpa() {
 //        List<Ball> balls = ballRepository.findByBlue("05");
 //        System.out.println(balls.size());
 //        List<Ball> balls = myBallRepository.getAllBall();
@@ -51,8 +51,6 @@ public class ExampleWebApplicationTests {
         List<BallHero> bh = myBallRepository.getHB();
         System.out.println(bh.size());
     }
-
-
 
 
 }

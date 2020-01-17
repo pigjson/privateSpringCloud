@@ -36,21 +36,22 @@ public class TestPermissionAspect implements Ordered {
         if (testPermission == null) {
             return joinPoint.proceed();
         }
-        System.out.println("--->"+testPermission.name());
-        System.out.println("--->"+testPermission.role());
+        System.out.println("--->" + testPermission.name());
+        System.out.println("--->" + testPermission.role());
         Object[] args = joinPoint.getArgs();
-        if(null == args || args.length==0){
+        if (null == args || args.length == 0) {
             return "没有收到参数！";
         }
-        for(Object o:args){
-            System.out.println("11111"+o);
+        for (Object o : args) {
+            System.out.println("11111" + o);
         }
         JSONObject jsonObject = JSONUtil.parseObj(String.valueOf(args[0]));
-        if(!"admin".equals(jsonObject.get("para"))){
-           return "没有权限";
+        if (!"admin".equals(jsonObject.get("para"))) {
+            return "没有权限";
         }
         return joinPoint.proceed();
     }
+
     @Override
     public int getOrder() {
         return 0;

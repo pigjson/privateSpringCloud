@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class TestMain {
 
-    public void happy(double money, Consumer<Double> con){
+    public void happy(double money, Consumer<Double> con) {
         con.accept(money);
     }
 

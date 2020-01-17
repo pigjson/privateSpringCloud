@@ -18,8 +18,8 @@ public class Test {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        for(int i=0;i<10;i++){
-            list.add(i+"");
+        for (int i = 0; i < 10; i++) {
+            list.add(i + "");
         }
 
 //        List<String> results = list.stream()
@@ -54,7 +54,6 @@ public class Test {
 
 
         lNameInCaps.stream().forEach(s -> System.out.println(s));
-
 
 
     }

@@ -13,6 +13,6 @@ import java.util.List;
  * @Date 2020/1/3
  **/
 
-public interface BallRepository extends JpaRepository<Ball,Integer> {
+public interface BallRepository extends JpaRepository<Ball, Integer> {
     List<Ball> findByBlue(String blue);
 }
