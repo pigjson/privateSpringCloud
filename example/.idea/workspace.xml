@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../example-activiti/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../example-service/target/" />
     <ignored path="$PROJECT_DIR$/../example-extra/target/" />
@@ -39,12 +31,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
+            <state relative-caret-position="22">
               <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -181,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="4" />
     <option name="y" value="7" />
     <option name="width" value="1583" />
@@ -193,48 +194,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -478,6 +440,7 @@
       <workItem from="1578033145876" duration="5997000" />
       <workItem from="1579231573037" duration="16100000" />
       <workItem from="1579392447374" duration="18077000" />
+      <workItem from="1583374105064" duration="625000" />
     </task>
     <servers />
   </component>
@@ -514,7 +477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134324000" />
+    <option name="totallyTimeSpent" value="134949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,10 +489,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="7" width="1583" height="857" extended-state="0" />
+    <frame x="4" y="7" width="1583" height="857" extended-state="1" />
     <layout>
       <window_info id="BPMN Editor" order="0" weight="0.3296126" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31713724" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3210768" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -615,20 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/IdGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/IdGen.java" />
     <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -636,16 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/ExampleActivityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/ExampleActivityApplication.java" />
     <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -657,23 +598,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ActivitiConfig.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/test.bpmn">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ProcessEngineConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/test.bpmn" />
     <entry file="uml://BPMN_2_0/flowPath=D:/workproject/myspringcloud/privateSpringCloud/example-activity/src/main/resources/processes/shenhe.xml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -747,67 +673,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activity/pom.xml" />
     <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/activity/shenhe.bpmn" />
     <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/activity/shenhe.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/dev/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/controller/ActivityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/ActivityConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/impl/ActivityConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1709#1724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/dev/bootstrap.properties" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/controller/ActivityController.java" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/ActivityConsumerService.java" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/impl/ActivityConsumerServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.xml" />
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/test/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -880,23 +754,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn">
       <provider selected="true" editor-type-id="bpmn-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -908,9 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/js/jquery_v1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/js/jquery_v1.9.1.js" />
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -930,22 +795,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/js/jquery_v1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/jquery_v1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/static/jquery_v1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/js/jquery_v1.9.1.js" />
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/jquery_v1.9.1.js" />
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/static/jquery_v1.9.1.js" />
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/static/js/jquery_v1.9.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
+        <state relative-caret-position="22">
           <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>

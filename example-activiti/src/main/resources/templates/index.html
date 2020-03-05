@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script type="text/javascript" src="../static/js/jquery_v1.9.1.js" th:src="@{/js/jquery_v1.9.1.js}"></script>
+</head>
+<body>
+<button id="startActiviti" onclick="startActiviti()">开启流程</button>&nbsp&nbsp <br><br>
+</body>
+<script>
+    var url = "http://10.7.4.62:8487/"
+
+    function startActiviti(){
+
+        $.ajax({
+            url: url+'index/startActiviti/',
+            type: 'POST',
+            data: JSON.stringify(params),
+            contentType: "application/json",
+            success: function (res) {
+                console.info(res);
+                alert("成功："+res)
+            },
+            error: function (xhr) {
+                console.log(xhr);
+                alert("异常："+xhr)
+            }
+
+        })
+    };
+</script>
+</html>
