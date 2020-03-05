@@ -36,7 +36,7 @@
         <module>../example-hystrix-turbine</module>
         <module>../example-config</module>
         <module>../example-zuul</module>
-        <module>../example-activity</module>
+        <module>../example-activiti</module>
     </modules>
     <dependencyManagement>
         <dependencies>

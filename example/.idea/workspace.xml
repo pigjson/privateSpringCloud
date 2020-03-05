@@ -5,41 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../example-activity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/ExampleActivityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/IdGen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ProcessEngineConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/controller/ActivityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/ActivityConsumerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/impl/ActivityConsumerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/dev/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/processes/test.bpmn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/prod/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/main/resources/test/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity/src/test/java/com/test/ExampleActivityApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/src/main/java/com/test/ExampleActivity1Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example-activity1/src/test/java/com/test/ExampleActivity1ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-activiti/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../example-service/target/" />
@@ -68,32 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+            <state relative-caret-position="-90">
+              <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -132,6 +83,7 @@
       <find>processDefinitionKey</find>
       <find>no processes deployed</find>
       <find>acit</find>
+      <find>act</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/ExampleWebApplication.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/ExampleServiceApplication.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/TopicOtherReceiver.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/TopicTotalReceiver.java" />
         <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/config/FanoutRabbitConfig.java" />
@@ -171,7 +121,6 @@
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java" />
         <option value="$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/../example-activity/src/test/java/com/test/ExampleActivityApplicationTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../example-web/pom.xml" />
         <option value="$PROJECT_DIR$/../example-activity/src/main/resources/prod/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../example-activity/src/main/resources/test/bootstrap.properties" />
@@ -187,15 +136,18 @@
         <option value="$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/ActivityConsumerService.java" />
         <option value="$PROJECT_DIR$/../example-activity/src/main/java/com/test/controller/ActivityController.java" />
         <option value="$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/impl/ActivityConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../example-activiti/pom.xml" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/prod/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/test/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/ExampleActivitiApplication.java" />
-        <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../example-activiti/src/test/java/com/test/ExampleActivitiApplicationTests.java" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/ActivitiConsumerService.java" />
-        <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" />
+        <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" />
+        <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -215,7 +167,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -237,6 +199,10 @@
           <expand>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -256,51 +222,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
@@ -308,30 +229,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="processes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,7 +245,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example-activiti/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example-activiti/src/main/resources/static/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -365,11 +262,11 @@
       <recent name="com.test.lock.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\static\js" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\static" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\templates" />
       <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\java\com\test" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activity\src\main\resources\processes" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activity\src\main\java\com\test\activity" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activity\src\main" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\templates\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,6 +282,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ExampleActivitiApplication">
+    <configuration name="ActivitiConsumerServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.service.impl.ActivitiConsumerServiceImpl" />
+      <module name="example-activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.service.impl.Test" />
       <module name="example-service" />
@@ -429,22 +339,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleWebApplicationTests.testLock (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="example-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.ExampleWebApplicationTests" />
-      <option name="METHOD_NAME" value="testLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExampleWebApplicationTests.testReids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="example-web" />
       <extension name="coverage">
@@ -480,13 +374,6 @@
     <configuration name="ExampleActivitiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="example-activiti" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExampleActivitiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleActivityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="example-activity" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExampleActivityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -535,8 +422,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ActivitiConsumerServiceImpl" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testStringRedis" />
-      <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (1)" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testReids" />
       <item itemvalue="JUnit.ExampleWebApplicationTests.testJpa" />
       <item itemvalue="JUnit.ExampleWebApplicationTests" />
@@ -546,16 +433,15 @@
       <item itemvalue="Spring Boot.ExampleServiceApplication" />
       <item itemvalue="Spring Boot.ExampleWebApplication" />
       <item itemvalue="Spring Boot.ExampleZuulApplication" />
-      <item itemvalue="Spring Boot.ExampleActivityApplication" />
       <item itemvalue="Spring Boot.ExampleActivitiApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActivitiConsumerServiceImpl" />
         <item itemvalue="JUnit.ExampleWebApplicationTests.testJpa" />
         <item itemvalue="JUnit.ExampleWebApplicationTests" />
         <item itemvalue="JUnit.ExampleWebApplicationTests.testReids" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.ExampleWebApplicationTests.testLock (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +477,7 @@
       <workItem from="1577754813655" duration="8852000" />
       <workItem from="1578033145876" duration="5997000" />
       <workItem from="1579231573037" duration="16100000" />
-      <workItem from="1579392447374" duration="2467000" />
+      <workItem from="1579392447374" duration="18077000" />
     </task>
     <servers />
   </component>
@@ -628,7 +514,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118714000" />
+    <option name="totallyTimeSpent" value="134324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,7 +527,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="7" width="1583" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="BPMN Editor" order="0" weight="0.3296126" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31713724" />
@@ -654,7 +539,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.95714283" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -685,67 +570,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/test/java/com/test/ExampleActivityApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-hystrix-turbine/src/main/resources/dev/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-eureka/src/main/resources/dev/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-config/src/main/resources/dev/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/prod/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/test/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-extra/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -984,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/test/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1042,30 +859,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/repository/DeploymentQuery.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        <state relative-caret-position="182">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/repository/Deployment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="132">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/js/jquery_v1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        <state relative-caret-position="386">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/js/jquery_v1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/jquery_v1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/static/jquery_v1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/static/js/jquery_v1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
         </state>
       </provider>
     </entry>
