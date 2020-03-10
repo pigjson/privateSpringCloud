@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="example-zuul" />
         <module name="example-activiti" />
-        <module name="example-config" />
         <module name="example-eureka" />
-        <module name="example-extra" />
+        <module name="example-pay" />
         <module name="example-service" />
         <module name="example-web" />
+        <module name="example-config" />
+        <module name="example-extra" />
         <module name="example-api" />
-        <module name="example-zuul" />
         <module name="example-entity" />
         <module name="example-hystrix-turbine" />
+        <module name="example-ball-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,11 +30,13 @@
       <module name="example-activiti" options="-parameters" />
       <module name="example-activity" options="-parameters" />
       <module name="example-api" options="-parameters" />
+      <module name="example-ball-order" options="-parameters" />
       <module name="example-config" options="-parameters" />
       <module name="example-entity" options="-parameters" />
       <module name="example-eureka" options="-parameters" />
       <module name="example-extra" options="-parameters" />
       <module name="example-hystrix-turbine" options="-parameters" />
+      <module name="example-pay" options="-parameters" />
       <module name="example-service" options="-parameters" />
       <module name="example-web" options="-parameters" />
       <module name="example-zuul" options="-parameters" />

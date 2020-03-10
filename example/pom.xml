@@ -37,6 +37,8 @@
         <module>../example-config</module>
         <module>../example-zuul</module>
         <module>../example-activiti</module>
+        <module>../example-ball-order</module>
+        <module>../example-pay</module>
     </modules>
     <dependencyManagement>
         <dependencies>

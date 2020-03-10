@@ -4,7 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="" />
+    <list default="true" id="83d9168a-e7df-4e7d-930c-48875f4b0429" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../example-ball-order/src/main/resources/dev/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example-ball-order/src/main/resources/prod/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example-ball-order/src/main/resources/test/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../example-service/target/" />
     <ignored path="$PROJECT_DIR$/../example-extra/target/" />
@@ -21,6 +31,8 @@
     <ignored path="$PROJECT_DIR$/../example-activity/target/" />
     <ignored path="$PROJECT_DIR$/../example-activity1/target/" />
     <ignored path="$PROJECT_DIR$/../example-activiti/target/" />
+    <ignored path="$PROJECT_DIR$/../example-pay/target/" />
+    <ignored path="$PROJECT_DIR$/../example-ball-order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +45,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/message/MsgConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
+            <state relative-caret-position="430">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/message/ProducerMsgListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/impl/PayServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/controller/PayController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="41">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +127,7 @@
       <find>no processes deployed</find>
       <find>acit</find>
       <find>act</find>
+      <find>server.port=</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,30 +136,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/lock/impl/RedisLock.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/impl/PayServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/ExampleController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/TopicOtherReceiver.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/TopicTotalReceiver.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/config/FanoutRabbitConfig.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/resources/dev/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/config/DirectRabbitConfig.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/config/DirectRabbitConfig.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/DirectReceiver.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/config/MessageListenerConfig.java" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/rabbitmq/FanoutReceiverA.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/annotation/TestPermission.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/ExampleController.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/annotation/TestPermissionAspect.java" />
-        <option value="$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/TestPermissionController.java" />
-        <option value="$PROJECT_DIR$/../example-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../example-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java" />
-        <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Hero.java" />
         <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Ball.java" />
         <option value="$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/BallHero.java" />
         <option value="$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java" />
@@ -144,11 +169,30 @@
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/ActivitiConsumerService.java" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../example-activiti/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java" />
         <option value="$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/../example-ball-order/src/main/resources/test/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-ball-order/src/main/resources/prod/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/resources/test/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/resources/prod/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/event/PayEvent.java" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/PayService.java" />
+        <option value="$PROJECT_DIR$/../example-pay/src/test/java/com/test/ExamplePayApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/ExamplePayApplication.java" />
+        <option value="$PROJECT_DIR$/../example-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-ball-order/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/config/MQProducerConfiguration.java" />
+        <option value="$PROJECT_DIR$/../example-ball-order/src/test/java/com/test/ExampleBallOrderApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../example-ball-order/src/main/resources/dev/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/resources/dev/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/message/ProducerMsgListener.java" />
+        <option value="$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/message/MsgConsumer.java" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/impl/PayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../example-pay/src/main/java/com/test/controller/PayController.java" />
       </list>
     </option>
   </component>
@@ -182,7 +226,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="7" />
     <option name="width" value="1583" />
@@ -194,7 +238,158 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-ball-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -207,7 +402,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example-activiti/src/main/resources/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example-ball-order/src/main/java/com/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,18 +412,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.event" />
       <recent name="com.test.dao" />
       <recent name="com.test.config" />
       <recent name="com.test.rabbitmq" />
       <recent name="com.test.controller" />
-      <recent name="com.test.lock.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-ball-order\src\main\java\com\test" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-ball-order\src\main\resources" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-pay\src\main\resources" />
+      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-service\src\main\resources" />
       <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\static\js" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\static" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\templates" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources" />
-      <recent name="D:\workproject\myspringcloud\privateSpringCloud\example-activiti\src\main\resources\templates\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExampleActivitiApplication">
+  <component name="RunManager" selected="Spring Boot.ExampleBallOrderApplication (1)">
     <configuration name="ActivitiConsumerServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.service.impl.ActivitiConsumerServiceImpl" />
       <module name="example-activiti" />
@@ -340,6 +535,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleBallOrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="example-ball-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExampleBallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleBallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="example-ball-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.exampleballorder.ExampleBallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="example-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExampleConfigApplication" />
@@ -357,6 +566,13 @@
     <configuration name="ExampleHystrixTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="example-hystrix-turbine" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExampleHystrixTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamplePayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="example-pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ExamplePayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -396,6 +612,9 @@
       <item itemvalue="Spring Boot.ExampleWebApplication" />
       <item itemvalue="Spring Boot.ExampleZuulApplication" />
       <item itemvalue="Spring Boot.ExampleActivitiApplication" />
+      <item itemvalue="Spring Boot.ExamplePayApplication" />
+      <item itemvalue="Spring Boot.ExampleBallOrderApplication" />
+      <item itemvalue="Spring Boot.ExampleBallOrderApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -440,7 +659,8 @@
       <workItem from="1578033145876" duration="5997000" />
       <workItem from="1579231573037" duration="16100000" />
       <workItem from="1579392447374" duration="18077000" />
-      <workItem from="1583374105064" duration="625000" />
+      <workItem from="1583374105064" duration="1201000" />
+      <workItem from="1583799094015" duration="25171000" />
     </task>
     <servers />
   </component>
@@ -477,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134949000" />
+    <option name="totallyTimeSpent" value="160696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,10 +709,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="7" width="1583" height="857" extended-state="1" />
+    <frame x="4" y="7" width="1583" height="857" extended-state="0" />
     <layout>
       <window_info id="BPMN Editor" order="0" weight="0.3296126" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3210768" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32042024" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -502,7 +722,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.75" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,261 +753,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../example-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-entity/src/main/java/com/test/entity/BallHero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="56" selection-start-line="56" selection-end-line="76" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/IdGen.java" />
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/ExampleActivityApplication.java" />
-    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ActivitiConfig.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/config/ProcessEngineConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/test.bpmn" />
-    <entry file="uml://BPMN_2_0/flowPath=D:/workproject/myspringcloud/privateSpringCloud/example-activity/src/main/resources/processes/shenhe.xml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>BPMN_2_0</ID>
-          <OriginalElement>flowPath=D:/workproject/myspringcloud/privateSpringCloud/example-activity/src/main/resources/processes/shenhe.xml</OriginalElement>
-          <nodes>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @363834</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @363846</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @363830</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @363838</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @363826</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @363842</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @363823</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="274.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Details</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/RuntimeService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/RuntimeServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="78" column="88" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/cmd/StartProcessInstanceCmd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.png" />
-    <entry file="uml://BPMN_2_0/flowPath=D:/workproject/myspringcloud/privateSpringCloud/example-activity/src/main/resources/processes/shenhe.bpmn.xml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>BPMN_2_0</ID>
-          <OriginalElement>flowPath=D:/workproject/myspringcloud/privateSpringCloud/example-activity/src/main/resources/processes/shenhe.bpmn.xml</OriginalElement>
-          <nodes>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @379697</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @379716</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @379712</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @379720</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @379708</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @379700</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @379704</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="134.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Details</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/activity/shenhe.bpmn" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/activity/shenhe.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/dev/bootstrap.properties" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/controller/ActivityController.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/ActivityConsumerService.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.bpmn" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/java/com/test/service/impl/ActivityConsumerServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../example-activity/src/main/resources/processes/shenhe.xml" />
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/test/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/prod/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/ExampleActivitiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/test.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/config/ProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/test/java/com/test/ExampleActivitiApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/ActivitiConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/repository/DeploymentQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/repository/Deployment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/processes/shenhe.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/service/impl/ActivitiConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/js/jquery_v1.9.1.js" />
-    <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/java/com/test/controller/ActivitiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/dev/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -803,15 +768,366 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../example-activiti/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="66">
           <caret line="3" column="78" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/service/impl/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/service/MyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/MyBallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+            <element signature="e#0#79#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/controller/ExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/test/java/com/test/ExampleWebApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/dao/BallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/java/com/test/ExampleServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/ExampleWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/resources/prod/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/resources/test/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.8.RELEASE/spring-messaging-5.0.8.RELEASE.jar!/org/springframework/messaging/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/event/PayEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/exampleballorder/ExampleBallOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/resources/test/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-eureka/src/main/java/com/test/ExampleEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/resources/prod/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/test/java/com/test/ExamplePayApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-service/src/main/resources/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="56" selection-start-line="56" selection-end-line="76" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="48">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/AmqpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/ExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-web/src/main/java/com/test/controller/TestPermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/ExamplePayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/ClientConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2428">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#3805#3806#0" expanded="true" />
+            <element signature="e#3851#3852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/config/MQProducerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="316" column="80" selection-start-line="316" selection-start-column="65" selection-end-line="316" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/test/java/com/test/ExampleBallOrderApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/ExampleBallOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/event/PayEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.2/rocketmq-spring-boot-2.0.2.jar!/org/apache/rocketmq/spring/core/RocketMQLocalTransactionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/resources/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/PayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/resources/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/message/ProducerMsgListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-ball-order/src/main/java/com/test/message/MsgConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/service/impl/PayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../example-pay/src/main/java/com/test/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,7 +1181,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>example-api</last-edited>
+          <last-edited>example-config</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
