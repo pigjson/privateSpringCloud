@@ -69,6 +69,12 @@
             <version>${example-extra.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.test</groupId>
+            <artifactId>example-elasticsearch</artifactId>
+            <version>${example-elasticsearch.version}</version>
+        </dependency>
+
         <!--配置中心支持-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

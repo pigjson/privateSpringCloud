@@ -26,6 +26,8 @@
         <hutool.version>5.0.5</hutool.version>
         <jedis.version>2.9.0</jedis.version>
         <fastjson.version>1.2.23</fastjson.version>
+        <example-elasticsearch-common.version>1.0-SNAPSHOT</example-elasticsearch-common.version>
+        <example-elasticsearch.version>1.0-SNAPSHOT</example-elasticsearch.version>
     </properties>
     <modules>
         <module>../example-eureka</module>
@@ -39,6 +41,8 @@
         <module>../example-activiti</module>
         <module>../example-ball-order</module>
         <module>../example-pay</module>
+        <module>../example-elasticsearch-common</module>
+        <module>../example-elasticsearch</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -54,6 +58,32 @@
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
                 <version>2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>com.test</groupId>
+                <artifactId>example-elasticsearch-common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.platform</groupId>
+                <artifactId>platform-elasticsearch</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>7.3.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>7.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>7.3.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
